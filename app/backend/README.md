@@ -92,11 +92,11 @@ app/backend/
 └── main.py                   # FastAPI application entry point
 ```
 
+## Troubleshooting
+
+- **Port already in use:** Run `lsof -i :8000` to find the conflicting process, or just start the server on a different port with `--port 8080`.
+- **Poetry command not found:** Make sure `~/.local/bin` is on your PATH after installing Poetry.
+
 ## Disclaimer
 
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No warranties or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+This pr
