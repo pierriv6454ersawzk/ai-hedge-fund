@@ -14,7 +14,7 @@ The AI Hedge Fund consists of:
 ## Table of Contents
 
 - [🚀 Quick Start (For Non-Technical Users)](#-quick-start-for-non-technical-users)
-  - [Option 1: Using 1-Line Shell Script (Recommended)](#option-1-using-1-line-shell-script-recommended)
+  - [Option 1: Using 1-Line Shell Script (Recommended)](#option-shell-script-recommended)
   - [Option 2: Using npm (Alternative)](#option-2-using-npm-alternative)
 - [🛠️ Manual Setup (For Developers)](#️-manual-setup-for-developers)
   - [Prerequisites](#prerequisites)
@@ -104,8 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required)
+# For getting financial data (required for stock analysis)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
 
-> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` first is the most important step — the app won't return useful data without it. Get a key at https://financialdatasets.ai/.
+> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` early saves a lot of headaches — many agents silently fail without it.
