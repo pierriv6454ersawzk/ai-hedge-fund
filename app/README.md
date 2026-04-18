@@ -104,8 +104,7 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required for stock analysis)
-FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
+# For getting financial data (requi
 ```
 
-> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` early saves a lot of headaches — many agents silently fail without it.
+> **Personal note:** I've found that using `gpt-4o-mini` is a good cost-effective default for experimentation before switching to `gpt-4o` for more serious analysis.
