@@ -71,6 +71,8 @@ cd app && npm install && npm run setup
 - Backend API: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 
+> **Note:** If port 8000 is already in use on your machine, you can change the backend port by setting `BACKEND_PORT=8001` (or any free port) in your `.env` file before starting.
+
 ---
 
 ## 🛠️ Manual Setup (For Developers)
@@ -104,6 +106,5 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required)
-FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
+# For getting financial data (requi
 ```
