@@ -107,5 +107,3 @@ GROQ_API_KEY=your-groq-api-key
 # For getting financial data (required)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
-
-> **Note (personal):** I've found that setting up the `.env` file before running any scripts saves a lot of back-and-forth. The app will start without API keys but most features won't work until they're configured.
